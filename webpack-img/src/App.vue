@@ -5,7 +5,10 @@
       <img alt="pathWith@" src="@/assets/logo.png">
     </div>
     <div >
-      <img alt="pathWithRequire" src="require('./assets/logo.png')">
+      <img alt="pathWithStaticAbsolutePath" src="/public/right.png">
+    </div>
+    <div >
+      <img alt="pathWithRequire" :src="require('./assets/logo.png')">
     </div>
     <div class="svgInStyleFromCss"></div>
   </div>
